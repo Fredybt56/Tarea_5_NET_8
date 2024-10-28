@@ -1,0 +1,9 @@
+
+dotnet aspnet-codegenerator controller -name ClientesController -async -api -m Clientes -dc Conexiones
+"ConnectionStrings"：｛
+}
+"DefaultConnection": "Server=DESARROLLO;Database=db_empresa;User Id=sa;Password=Server@2022; TrustS
+// "Server=DESARROLLO; Database=db_empresa; Trusted_Connection=true; TrustServerCertificate=true;"
+
+dotnet add package MySql.EntityFrameworkCore
+//Server=localhost;Database=db_empresa;User=root;Password=Admin@123;Port=3306;
